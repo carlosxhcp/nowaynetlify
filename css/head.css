@@ -12,7 +12,7 @@ nav {
 .menu {
     list-style: none;
     float: left;
-    font-family: 'coolvetica',arial ;
+    font-family: 'mont',arial ;
     font-size: 280%;
 }
 
@@ -68,6 +68,11 @@ nav {
 @font-face {
     font-family: 'comforta';
     src: url('/fonts/comforta.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url('/fonts/mont.otf') format('opentype');
 }
 
 
