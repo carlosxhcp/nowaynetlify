@@ -258,6 +258,8 @@
     display: flex;
     align-items: center;   
     justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 20%;
 }
 
 
@@ -303,7 +305,7 @@
 .p1-texts {
     font-size: 20px;
     font-family: 'creato',arial;
-    margin-left: 20%;
+
 }
 
 .p1-buttons a {
@@ -313,17 +315,16 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'mont',arial;
-    padding: 10px 91px;
+    padding: 10px 59px;
     text-decoration: none;
 }
 
 
 @media(max-width:1100px) {
     .p1-div {
-        display: flex;
-        align-items: center;   
-        justify-content: center;
-        margin-top: -550px;
+        display:flex;
+        margin-bottom: 15%;
+        margin-top: -20%;
     }
     .p1-price {
         font-size: 70px;
@@ -331,6 +332,21 @@
     .p1-sizetxt{
         font-size: 30px;
     }
+
+    .p1-buttons {
+        margin-left: 2%;
+        margin-right: -20%;
+    
+    
+    }
+
+    .p1-texts {
+        margin-top: 0%;
+        margin-left: 0%;
+
+        
+    }
+
     .p1-buttons button {
         font-size: 35px;
         padding: 8px 40px;
@@ -347,6 +363,7 @@
 
     .p1-buttons a {
         padding: 20px 110px;
+        font-size: 30px;
 
     }
 
