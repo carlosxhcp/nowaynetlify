@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="/js/opennav.js"></script>
+  
 
 
   <!-- CSS LINKS -->
@@ -19,6 +20,7 @@
   <link rel="stylesheet" href="/css/produto.css">
   <link rel="stylesheet" href="/css/sizes.css">
   <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/fonts.css">
   <!-- CSS LINKS FIM-->
 
 
@@ -98,59 +100,42 @@
   </div>
 
 
-  
+
 
 
   <!--<a href="https://teste-do-carlo.pay.yampi.com.br/r/65E6TAMAAR">TAMANHO M</a>-->
 
 
 
-  <p class="titulo"> Noway Classic</p>
-  <p class="preco">R$129.90</p>
-  <div class="sizes">
-    <p class="size">SIZE</p>
-    <button onclick="changeLinkHrefM()" class="button1">M</button>
-    <button onclick="changeLinkHrefG()" class="button1">L</button>
-    <button onclick="changeLinkHrefGG()" class="button1">XL</button>
-  </div>
-  <script src="/js/buttons.js"></script>
-
-  <br><br>
-
-  <a class="comprar" id="link" href="#">COMPRAR</a>
-
   <!--GUIA DE TAMANHOS-->
-  <input id="abrir-popup" name="popup" type="radio" hidden>
-  <input id="fechar-popup" name="popup" type="radio" hidden checked>
-
-  <label id="abrir-popup-btn" for="abrir-popup">Guia de Tamanhos <img class="size_img" src="/img/p1/size.png"></label>
-  <label id="fechar-popup-btn" for="fechar-popup"></label>
-
-  <div id="conteudo">
-    <img class="tamanhos" src="/img/p1/medidas.jpeg">
-  </div>
-  <!--GUIA DE TAMANHOS-->
-
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+  <div class="p1-div">
 
-  <div>
+    <div class="p1-buttons">
+      <p class="p1-price">R$129,90</p>
+      <p class="p1-sizetxt">Selecione o tamanho desejado:</p>
+      <button onclick="changeLinkHrefM()">M</button>
+      <button onclick="changeLinkHrefG()">G</button>
+      <button onclick="changeLinkHrefGG()">GG</button>
+      <br><br>
+      <script src="/js/buttons.js"></script>
+      <a href="" id="link"><button ><img src="" alt="">COMPRAR</button></a>
+    </div>
+ 
 
-    <h1 class="produto_desc_title">Descrição:</h1>
-    <h1 class="produto_desc"> Essa é a camiseta pra voce que ta cansado de gastar dinheiro com porcaria, bem vindo a
-      noway meu parceiro, aqui seu dinheiro é bem gasto</h1>
 
-    <h1 class="produto_especs_title">Especificações do item:</h1>
-    <h1 class="produto_especs">
-      • Camiseta modelagem oversized <br>
-      • Tecido de alta qualidade, algodão 30.1 penteado <br>
-      • Cor: Preta <br>
-      • O item acompanha um adesivo da logo
-    </h1>
+    <div class="p1-texts">
+      <p>Modelagem oversized</p>
+      <p>Tecido algodão 30.1</p>
+      <p>Gola reforçada</p>
+      <p>Acompanha adesivo "NOWAY LOGO"</p>
+    </div>
+
   </div>
 
 
-  <br><br><br><br>
+
 
 
 
@@ -171,7 +156,7 @@
 
 
           <!-- Grid column -->
-          <div class="col-md-2" >
+          <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
               <a href="#!">Sobre</a>
             </h6>

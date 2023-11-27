@@ -251,13 +251,47 @@
 }
 
 
-@font-face {
-    font-family: 'coolvetica';
-    src: url('/fonts/coolvetica.otf') format('opentype');
 
+
+
+.p1-div {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
 }
 
-@font-face {
-    font-family: 'comforta';
-    src: url('/fonts/comforta.ttf') format('truetype');
+
+
+
+.p1-buttons {
+    margin-bottom: auto;
+    font-size: 20px;
 }
+
+.p1-price {
+    font-family: 'mont',arial;
+    font-size: 40px;
+}
+
+.p1-sizetxt {
+    font-size: 20px;
+    font-family: 'creato',arial;
+}
+
+.p1-buttons button {
+    background-color: #dedede;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'mont',arial;
+    padding: 0px 35px;
+}
+
+
+.p1-texts {
+    font-size: 20px;
+    font-family: 'creato',arial;
+    margin-left: 20%;
+}
+
+

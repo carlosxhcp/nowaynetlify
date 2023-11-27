@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url('/fonts/coolvetica.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'comforta';
+    src: url('/fonts/comforta.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'creato';
+    src: url(/fonts/creato.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url(/fonts/mont.otf) format(opentype);
+}
