@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>NOWAYSP</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" href="/css/produto.css">
+  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="/css/carrosel.css">
+  <link rel="stylesheet" href="/css/logo.css">
+  <link rel="stylesheet" href="/css/produto.css">
+  <link rel="stylesheet" href="/css/sizes.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <!-- CSS LINKS FIM-->
+
+
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+
+  <script>
+    function changeLinkHrefM() {
+      const link = document.getElementById('link');
+
+      link.setAttribute('href', 'https://bobbyhadz.com');
+
+      return false;
+    }
+    function changeLinkHrefG() {
+      const link = document.getElementById('link');
+
+      link.setAttribute('href', 'https://www.youtube.com/watch?v=0a99Pe1qZ_0');
+
+      return false;
+    }
+    function changeLinkHrefGG() {
+      const link = document.getElementById('link');
+
+      link.setAttribute('href', 'https://moewalls.com/category/abstract/');
+
+      return false;
+    }
+  </script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+  <a href="/index.html">
+    <div class="contLogo">
+      <img class="logo" src="/img/logo.png" alt="HOME">
+    </div>
+  </a>
+
+
+
+  <div id="myNav" class="menu_sobre">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="menu_sobre-content">
+      <a href="/index.html">HOME</a>
+      <a href="/shop.html">SHOP</a>
+      <a href="/">LOOKBOOK</a>
+      <a href="#">ABOUT</a>
+    </div>
+  </div>
+
+  <img class="menu_btn" src="/img/botoes/menu.svg" width="80px" height="80px" alt="" onclick="openNav()">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active bg-1">
+        <div class="carousel-caption">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item bg-2">
+        <div class="carousel-caption">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item bg-3">
+        <div class="carousel-caption">
+          <h5></h5>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <img src="/img/botoes/ant.png" width="100px" height="100px" alt="">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <img src="/img/botoes/prox.png" width="100px" height="100px" alt="">
+      <span class="visually-hidden">Next</span>
+    </button>
+
+
+    <!--thumbnails-->
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"><img class="d-block w-100" src="/img/p1/m1.png"
+          class="img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"><img
+          class="d-block w-100" src="/img/p1/m2.png" class="img-fluid"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"><img
+          class="d-block w-100" src="/img/p1/m3.png" class="img-fluid"></button>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!--<a href="https://teste-do-carlo.pay.yampi.com.br/r/65E6TAMAAR">TAMANHO M</a>-->
+
+
+
+  <p class="titulo"> Noway Classic</p>
+  <p class="preco">R$129.90</p>
+  <div class="sizes">
+    <p class="size">SIZE</p>
+    <button onclick="changeLinkHrefM()" class="button1">M</button>
+    <button onclick="changeLinkHrefG()" class="button1">L</button>
+    <button onclick="changeLinkHrefGG()" class="button1">XL</button>
+  </div>
+  <script src="/js/buttons.js"></script>
+
+  <br><br>
+
+  <a class="comprar" id="link" href="#">COMPRAR</a>
+
+  <!--GUIA DE TAMANHOS-->
+  <input id="abrir-popup" name="popup" type="radio" hidden>
+  <input id="fechar-popup" name="popup" type="radio" hidden checked>
+
+  <label id="abrir-popup-btn" for="abrir-popup">Guia de Tamanhos <img class="size_img" src="/img/p1/size.png"></label>
+  <label id="fechar-popup-btn" for="fechar-popup"></label>
+
+  <div id="conteudo">
+    <img class="tamanhos" src="/img/p1/medidas.jpeg">
+  </div>
+  <!--GUIA DE TAMANHOS-->
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div>
+
+    <h1 class="produto_desc_title">Descrição:</h1>
+    <h1 class="produto_desc"> Essa é a camiseta pra voce que ta cansado de gastar dinheiro com porcaria, bem vindo a
+      noway meu parceiro, aqui seu dinheiro é bem gasto</h1>
+
+    <h1 class="produto_especs_title">Especificações do item:</h1>
+    <h1 class="produto_especs">
+      • Camiseta modelagem oversized <br>
+      • Tecido de alta qualidade, algodão 30.1 penteado <br>
+      • Cor: Preta <br>
+      • O item acompanha um adesivo da logo
+    </h1>
+  </div>
+
+
+  <br><br><br><br>
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+
+        <img class="footer-logo" src="/img/logowhite.png">
+
+
+        <div class="row text-center d-flex justify-content-center pt-5">
+
+
+          <!-- Grid column -->
+          <div class="col-md-2" >
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Sobre</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Contato</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Pagamento</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!">Envio</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+      <br>
+
+      <br>
+      <!-- Section: Text -->
+
+      <!-- Section: Text -->
+
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2023 NOWAY | Todos os direitos reservados.
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+
+.menu_sobre {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    overflow-y: hidden;
+    transition: 0.4s;
+}
+
+.menu_sobre-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu_sobre a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    font-family: "coolvetica",arial;
+}
+
+.menu_sobre a:hover,
+.menu_sobre a:focus {
+    color: #f1f1f1;
+}
+
+.menu_sobre .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.menu_btn {
+    margin-left: 90%;
+    margin-top: -10%;
+    transition: all 0.3s ease-out;
+}
+
+.menu_btn:hover {
+    transform: rotate(90deg);
+
+}
+
+@media screen and (max-height: 450px) {
+
+
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu_btn {
+        margin-left: 85%;
+        margin-top: -25%;
+        z-index:99;
+        position: relative;
+    }
+
+    .menu_sobre a {
+        font-size: 100px;
+    }
+
+    .menu_sobre .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 150px;
+    }
+ 
+}

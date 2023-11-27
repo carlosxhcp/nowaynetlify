@@ -1,0 +1,116 @@
+.head-logo img {
+    display: block;
+    margin: 5px auto;
+    max-width: 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    float: left;
+    font-family: 'coolvetica',arial ;
+    font-size: 280%;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    margin: 40px;
+
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    color: #616161;
+    transition: 0.3s;
+
+}
+
+@media(max-width: 1100px) {
+
+    .head-logo img {
+        display: block;
+        margin: 5px auto;
+        max-width: 20%;
+    }
+
+    .menu {
+        font-size: 300%;
+        margin-left: -5%;
+    }
+
+    .menu li {
+        margin: 20px;
+    }
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('/fonts/coolvetica.otf') format('opentype');
+
+}
+
+@font-face {
+    font-family: 'comforta';
+    src: url('/fonts/comforta.ttf') format('truetype');
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 450px)
+and (max-width: 769px){
+   footer {
+       clear: both;
+       width: 100%;
+    }
+    .logotipo {
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .redes {
+        width: 50%;
+        float: right;
+    }
+}
+@media only screen and (min-width: 769px) {
+   footer {
+       width: 100%;
+       clear: both;
+       margin-bottom: 3%;
+   }
+   .logotipo {
+       font-size: 1em;
+       width: 45%;
+       float: left;
+       text-align: center;
+    }
+    .logotipo img, .redes img {
+        width: 10%;
+    }
+    .redes {
+        width: 45%;
+        float: right;
+        margin-right: 1%;
+        text-align: center;
+    }
+}

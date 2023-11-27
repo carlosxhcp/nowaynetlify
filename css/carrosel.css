@@ -1,0 +1,74 @@
+.carousel-item {
+    height: 60vh;
+    min-height: 200px;
+    margin-top: -2%;
+}
+
+.bg-1 {
+    background-image: url(../img/p1/teste1.png);
+}
+
+.bg-2 {
+    background-image: url(../img/p1/teste2.png);
+}
+
+.bg-3 {
+    background-image: url(../img/p1/teste3.png);
+}
+
+.bg-1,
+.bg-2,
+.bg-3 {
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+    z-index: 0;
+}
+
+.carousel-indicators button {
+    width: 200px !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 5;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .bg-1 {
+        background-image: url(../img/p1/testem1.png);
+    }
+
+    .bg-2 {
+        background-image: url(../img/p1/testem2.png);
+    }
+
+    .bg-3 {
+        background-image: url(../img/p1/testem3.png);
+    }
+
+    .carousel-indicators {
+        bottom: 450px;
+        z-index: 100;
+    }
+
+    .carousel-item {
+        height: 80vh;
+        min-height: 200px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        margin-top: -20%;
+        opacity: 5;
+    }
+}
+
