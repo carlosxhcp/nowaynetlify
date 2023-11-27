@@ -279,12 +279,13 @@
 }
 
 .p1-buttons button {
-    background-color: #ff0000;
+    background-color: #dedede;
+    border-radius: 2px;
     border: none;
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'mont',arial;
-    padding: 0px 35px;
+    padding: 5px 35px;
 }
 
 
