@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-.shop-produtos img:nth-child(1) {
+.shop-produtos a:nth-child(1) {
     padding-right: 10%;
 }
 
@@ -13,8 +13,8 @@
     .shop-produtos {
         display: grid;
         justify-items: center;
-        margin-top: 10%;
-        margin-bottom: 20%;
+        margin-top: 5%;
+        margin-bottom: 10%;
     }
 
     .shop-produtos img:nth-child(1) {
@@ -23,6 +23,11 @@
 
     .shop-produtos img {
         width: 150%;
+    }
+
+    .shop-produtos a {
+        display: grid;
+        justify-items: center;
     }
 }
 
