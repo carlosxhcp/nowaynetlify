@@ -5,15 +5,15 @@
 }
 
 .bg-1 {
-    background-image: url(../img/p1/teste1.png);
+    background-image: url(../img/p1/pc/p1.png);
 }
 
 .bg-2 {
-    background-image: url(../img/p1/teste2.png);
+    background-image: url(../img/p1/pc/p2.png);
 }
 
 .bg-3 {
-    background-image: url(../img/p1/teste3.png);
+    background-image: url(../img/p1/pc/p3.png);
 }
 
 .bg-1,
@@ -45,15 +45,15 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     
     .bg-1 {
-        background-image: url(../img/p1/testem1.png);
+        background-image: url(../img/p1/mobile/p1m.png);
     }
 
     .bg-2 {
-        background-image: url(../img/p1/testem2.png);
+        background-image: url(../img/p1/mobile/p2m.png);
     }
 
     .bg-3 {
-        background-image: url(../img/p1/testem3.png);
+        background-image: url(../img/p1/mobile/p3m.png);
     }
 
     .carousel-indicators {
