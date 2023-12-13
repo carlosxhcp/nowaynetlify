@@ -39,7 +39,7 @@
 .prod-buy {
     margin-top: 15px;
 }
-.prod-buy a {
+.prod-buy button {
     text-decoration: none;
     color: #000;
     background-color: rgb(207, 207, 207);
