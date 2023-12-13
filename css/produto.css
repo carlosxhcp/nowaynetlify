@@ -106,8 +106,16 @@
         padding: 0px 40px;
         margin: 5px
     }
+    .prod-buy a img {
+        width: 70px;
+    }
+    .prod-buy button {
+        border: none;
+    }
     .prod-buy a {
-        font-size: 2em;
-        padding: 10px 100px;
+        font-size: 1.7em;
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #000;
     }
 }
