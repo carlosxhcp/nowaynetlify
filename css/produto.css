@@ -88,22 +88,22 @@
         margin-left: 5%;
     }
     .prod-title {
-        font-size: 4em;
+        font-size: 7em;
     }
     .prod-price {
-        font-size: 3em;
+        font-size: 5em;
     }
     .prod-desc {
-        font-size: 2em;
-        max-width: 48%;
+        font-size: 2.5em;
+        margin-top: 5%;
     }
     .prod-btn p {
+        margin-top: 5%;
         font-size: 2.5em;
-        max-width: 50%;
     }
     .prod-btn button {
-        font-size: 2.3em;
-        padding: 0px 40px;
+        font-size: 3em;
+        padding: 10px 80px;
         margin: 5px
     }
     .prod-buy a img {
@@ -114,7 +114,7 @@
     }
     .prod-buy a {
         font-size: 1.7em;
-        padding: 0px 10px;
+        padding: 0px 150px;
         text-decoration: none;
         color: #000;
     }
