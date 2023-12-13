@@ -106,4 +106,8 @@
         padding: 0px 40px;
         margin: 5px
     }
+    .prod-buy a {
+        font-size: 2em;
+        padding: 10px 10    0px;
+    }
 }
