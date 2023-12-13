@@ -3,7 +3,7 @@
     margin-top: 2%;
 }
 
-.prod-logo {
+.prod-logo a {
     display: flex;
     justify-content: center;
     align-items: center;
