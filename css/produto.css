@@ -10,7 +10,7 @@
 }
 
 .prod {
-    margin-top: 25%;
+    margin-top: 20%;
     display: block;
     margin-left: 15%;
 }
@@ -39,10 +39,13 @@
 .prod-buy {
     margin-top: 15px;
 }
-.prod-buy button {
+.prod-buy a {
     text-decoration: none;
-    color: #000;
-    background-color: rgb(207, 207, 207);
+    color: #fff;
+}
+.prod-buy button {
+    border: none;
+    background-color: rgb(0, 0, 0);
     border-radius: 2px; 
     font-family: 'comforta',arial;
     font-size: 1.3em;
