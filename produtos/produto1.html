@@ -2,95 +2,118 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/produto.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-    <link rel="stylesheet" href="/css/carrosel.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/opennav.js"></script>
-    <title>NOWAY</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/produto.css">
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/carrosel.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/opennav.js"></script>
+  <title>NOWAY</title>
 </head>
 
 
 <body>
 
-    <div class="menu-logo">
-        <img src="/img/produto/logo.png">
+  <div class="menu-logo">
+    <img src="/img/produto/logo.png">
+  </div>
+
+  <div class="nav-bar-desk">
+
+
+    <!---------------------------DESKTOP MENU--------------------------------------->
+    <nav>
+      <ul class="menu">
+        <li><a href="\index.html">HOME</a></li>
+        <li><a href="\shop.html">SHOP</a></li>
+        <li><a href="\index.html">LOOKBOOK</a></li>
+        <li><a href="\index.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!---------------------------MOBILE MENU--------------------------------------->
+  <div class="nav-bar-mobile">
+    <div class="menu-mobile-btn">
+      <img class="menu_btn" src="/img/botoes/menu.svg" width="40px" height="40px" alt="" onclick="openNav()">
     </div>
 
-    <div class="nav-bar-desk">
-
-
-        <!---------------------------DESKTOP MENU--------------------------------------->
-        <nav>
-            <ul class="menu">
-                <li><a href="\index.html">HOME</a></li>
-                <li><a href="\shop.html">SHOP</a></li>
-                <li><a href="\index.html">LOOKBOOK</a></li>
-                <li><a href="\index.html">ABOUT</a></li>
-            </ul>
-        </nav>
+    <div id="myNav" class="menu_sobre">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="menu_sobre-content">
+        <a href="/index.html">HOME</a>
+        <a href="/shop.html">SHOP</a>
+        <a href="/">LOOKBOOK</a>
+        <a href="#">ABOUT</a>
+      </div>
     </div>
-
-    <!---------------------------MOBILE MENU--------------------------------------->
-    <div class="nav-bar-mobile">
-        <div class="menu-mobile-btn">
-            <img class="menu_btn" src="/img/botoes/menu.svg" width="40px" height="40px" alt="" onclick="openNav()">
-        </div>
-
-        <div id="myNav" class="menu_sobre">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="menu_sobre-content">
-                <a href="/index.html">HOME</a>
-                <a href="/shop.html">SHOP</a>
-                <a href="/">LOOKBOOK</a>
-                <a href="#">ABOUT</a>
-            </div>
-        </div>
-    </div>
-    <!-----------------------galeria do produto---------------------------->
+  </div>
+  <!-----------------------galeria do produto---------------------------->
 
 
-    
-    <div class="content">
-      <div class="slides">
 
-        <input type="radio" name="radio" id="slide1" checked>
-        <input type="radio" name="radio" id="slide2">
-        <input type="radio" name="radio" id="slide3">
-        <input type="radio" name="radio" id="slide4">
-        <input type="radio" name="radio" id="slide5">
+  <div class="content">
+    <div class="slides">
 
-        <div class="slide s1">
-          <img src="/img/home/home-img.jpg" alt="">
-        </div>
-        <div class="slide">
-          <img src="/img/shop/produto2.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="/img/shop/produto1.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="/img/shop/produto2.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="/img/shop/produto1.png" alt="">
-        </div>
+      <input type="radio" name="radio" id="slide1" checked>
+      <input type="radio" name="radio" id="slide2">
+      <input type="radio" name="radio" id="slide3">
+
+      <div class="slide s1">
+        <img src="/img/shop/produto2.png" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="/img/shop/produto1.png" alt="">
+      </div>
+
+      <div class="slide">
+        <img src="/img/shop/produto2.png" alt="">
       </div>
 
       <div class="navigation">
-        <label class="bar" for="slide1"><img src="/img/shop/produto1.png" width="80px" alt=""></label>
-        <label class="bar" for="slide2"><img src="/img/shop/produto2.png" width="80px" alt=""></label>
-        <label class="bar" for="slide3"><img src="/img/shop/produto1.png" width="80px" alt=""></label>
-        <label class="bar" for="slide4"><img src="/img/shop/produto2.png" width="80px" alt=""></label>
-        <label class="bar" for="slide5"><img src="/img/shop/produto1.png" width="80px" alt=""></label>
+        <label class="bar" for="slide1"><img src="/img/shop/produto2.png" width="80px" alt=""></label>
+        <label class="bar" for="slide2"><img src="/img/shop/produto1.png" width="80px" alt=""></label>
+        <label class="bar" for="slide3"><img src="/img/shop/produto2.png" width="80px" alt=""></label>
       </div>
     </div>
+  </div>
 
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+  <br><br><br><br><br><br><br><br><br><br>  <br><br><br><br><br><br><br><br><br><br>
+  <p class="titulo"> Noway Classic</p>
+  <p class="preco">R$129.90</p>
+  <div class="sizes">
+    <p class="size">SIZE</p>
+    <button onclick="changeLinkHrefM()" class="button1">M</button>
+    <button onclick="changeLinkHrefG()" class="button1">L</button>
+    <button onclick="changeLinkHrefGG()" class="button1">XL</button>
+  </div>
+  <script src="/js/buttons.js"></script>
+
+  <br><br>
+
+  <a class="comprar" id="link" href="#">COMPRAR</a>
+
+<br><br><br><br><br><br>
+
+
+  <div>
+
+    <h1 class="produto_desc_title">Descrição:</h1>
+    <h1 class="produto_desc"> Essa é a camiseta pra voce que ta cansado de gastar dinheiro com porcaria, bem vindo a
+      noway meu parceiro, aqui seu dinheiro é bem gasto</h1>
+
+    <h1 class="produto_especs_title">Especificações do item:</h1>
+    <h1 class="produto_especs">
+      • Camiseta modelagem oversized <br>
+      • Tecido de alta qualidade, algodão 30.1 penteado <br>
+      • Cor: Preta <br>
+      • O item acompanha um adesivo da logo
+    </h1>
+  </div>
 </body>
 
 </html>

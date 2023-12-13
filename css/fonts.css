@@ -18,3 +18,13 @@
     font-family: 'mont';
     src: url(/fonts/mont.otf) format(opentype);
 }
+
+@font-face {
+    font-family: 'nexa' ;
+    src: url(/fonts/nexa.ttf);
+}
+
+@font-face {
+    font-family: 'caviar';
+    src: url(/fonts/caviar.ttf);
+}
