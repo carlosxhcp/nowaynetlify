@@ -28,3 +28,8 @@
     font-family: 'caviar';
     src: url(/fonts/caviar.ttf);
 }
+
+@font-face {
+    font-family: 'goudy';
+    src: url(/fonts/goudy.otf);
+}
