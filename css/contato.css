@@ -7,10 +7,6 @@
     margin-bottom: 10%;
 }
 
-.cont-left-mobile {
-    display: none;
-}
-
 .cont-right {
     float: right;
     margin-right: 15%;
@@ -110,28 +106,35 @@ textarea::placeholder {
 
 @media(max-width: 1100px) {
     .cont {
+        margin-top: 35%;
+        margin-bottom: 40%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .cont-left {
-        display: none;
-    }
-    .cont-left-mobile {
-        display: flex;
-
+        margin-left: 30px;
     }
     .cont-right {
-        margin-left: 15%;
+        margin-bottom: 10%;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     .cont-right h1 {
-       font-size: 3em;
-       display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 3em;
     }
     input {
         width: 100%;
         height: 80px;
+
+    }
+    input::placeholder {
+        padding: 10px;
+        font-size: 1.5em;
+        font-family: 'comforta',arial;
+    }
+    textarea {
+        width: 100%;
+        height: 200px;
     }
 }
