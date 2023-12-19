@@ -1,6 +1,7 @@
 .cont {
     margin-top: 5%;
 }
+
 .cont-left {
     float: left;
     margin-left: 18%;
@@ -11,8 +12,9 @@
     float: right;
     margin-right: 15%;
 }
+
 .cont-right h1 {
-    font-family: 'goudy',arial;  
+    font-family: 'heavitas', arial;
     font-size: 2.3em;
     margin-bottom: 6%;
 }
@@ -27,17 +29,19 @@ input {
     width: 350px;
     height: 50px;
 }
+
 input:focus {
     border: 3px solid #7a7a7a;
 }
 
 input::placeholder {
     padding: 10px;
-    font-family: 'comforta',arial;
+    font-family: 'comforta', arial;
 }
+
 textarea::placeholder {
     padding: 10px;
-    font-family: 'comforta',arial;
+    font-family: 'comforta', arial;
 }
 
 
@@ -59,6 +63,7 @@ textarea::placeholder {
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+
 .form-msg:focus {
     border: 3px solid #7a7a7a;
 }
@@ -69,7 +74,7 @@ textarea::placeholder {
     border-style: none;
     background-color: #8f8f8f;
     border-radius: 3px;
-    font-family: 'comforta',arial;
+    font-family: 'comforta', arial;
     padding: 10px 148px;
     transition: 0.3s;
 }
@@ -82,7 +87,7 @@ textarea::placeholder {
 
 
 .cont-insta {
-    margin-top: 25%;
+    margin-top: -10%;
 }
 
 .cont-insta img {
@@ -90,14 +95,14 @@ textarea::placeholder {
     padding-right: 10px;
     padding-bottom: 5px;
 }
+
 .cont-insta a {
     text-decoration: none;
-    border-radius: 3px;
-    color: #000000;
+    color: #9e9e9e;
     font-size: 1.5em;
     font-family: 'coolvetica';
-    background-color: #9292928f;
-    padding: 20px 35px;
+    background-color: #000000;
+    padding: 20px 62px;
 }
 
 .cont-insta a:hover {
@@ -106,35 +111,71 @@ textarea::placeholder {
 
 @media(max-width: 1100px) {
     .cont {
-        margin-top: 35%;
-        margin-bottom: 40%;
-        display: flex;
+        display: inline-block;
         justify-content: center;
         align-items: center;
     }
+
     .cont-left {
-        margin-left: 30px;
+        margin-left: 15%;
     }
-    .cont-right {
-        margin-bottom: 10%;
-        margin-left: 70px;
-        margin-right: 70px;
+
+    .cont-left-img {
+        width: 80%;
     }
+
+    .cont-right {}
+
     .cont-right h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
+
     input {
         width: 100%;
         height: 80px;
 
     }
+
     input::placeholder {
         padding: 10px;
         font-size: 1.5em;
-        font-family: 'comforta',arial;
+        font-family: 'comforta', arial;
     }
+
     textarea {
         width: 100%;
         height: 200px;
+    }
+
+    .form-send {
+        border-style: none;
+        background-color: #8f8f8f;
+        border-radius: 3px;
+        font-family: 'comforta', arial;
+        padding: 20px 168px;
+        transition: 0.3s;
+    }
+
+    .cont-insta {
+        margin-top: -10%;
+    }
+
+    .cont-insta img {
+        width: 50px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    .cont-insta a {
+        text-decoration: none;
+        color: #9e9e9e;
+        font-size: 3.2em;
+        font-family: 'coolvetica';
+        background-color: #000000;
+        padding: 20px 66px;
+    }
+
+    .cont-insta a:hover {
+        color: rgb(95, 95, 95);
     }
 }
