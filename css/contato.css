@@ -26,7 +26,7 @@ input {
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
-    width: 350px;
+    width: 400px;
     height: 50px;
 }
 
@@ -35,15 +35,19 @@ input:focus {
 }
 
 input::placeholder {
-    padding: 10px;
-    font-family:arial;
+    font-family: arial;
 }
+
 
 textarea::placeholder {
-    padding: 10px;
-    font-family:arial;
+    font-family: arial;
 }
 
+input[type='text'],
+input[type='email'],
+textarea {
+    padding: 10px;
+}
 
 .form-name {
     margin-bottom: 20px;
@@ -75,7 +79,7 @@ textarea::placeholder {
     background-color: #c2c2c2;
     border-radius: 3px;
     font-family: 'coolvetica', arial;
-    padding: 10px 148px;
+    padding: 10px 180px;
     transition: 0.3s;
 }
 
@@ -132,37 +136,43 @@ textarea::placeholder {
         font-size: 3.7em;
     }
 
-    input[type='text'],input[type='email'],textarea{
+    input[type='text'],
+    input[type='email'],
+    textarea {
         width: 100%;
         height: 80px;
         font-size: 2em;
-
     }
+
     input {
         box-sizing: border-box;
         border: 8px solid #c2c2c2;
         border-radius: 9px;
     }
+
     input:focus {
         border: 8px solid #9c9c9c;
     }
+
     .form-msg {
         font-size: 2em;
         border: 8px solid #c2c2c2;
         border-radius: 9px;
     }
+
     .form-msg:focus {
         border: 8px solid #9c9c9c;
     }
-    
+
 
     input::placeholder {
-        padding: 10px;
         font-size: 1.0em;
     }
+
     textarea::placeholder {
         font-size: 1.0em;
     }
+
     textarea {
         width: 100%;
         height: 200px;
@@ -177,6 +187,7 @@ textarea::placeholder {
         transition: 0.3s;
         margin-left: 19%;
     }
+
     .cont-insta {
         margin-top: -10%;
     }
