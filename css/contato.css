@@ -124,10 +124,12 @@ textarea::placeholder {
         width: 80%;
     }
 
-    .cont-right {}
+    .cont-right {
+        margin-left: 15%;
+    }
 
     .cont-right h1 {
-        font-size: 4em;
+        font-size: 3.7em;
     }
 
     input[type='text'],input[type='email']{
