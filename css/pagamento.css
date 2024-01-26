@@ -1,0 +1,94 @@
+.main-div {
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+.div-left {
+    max-width: 30%;
+    margin-left: 16%;
+    float: left;
+}
+
+.envio {
+    font-size: 2em;
+    font-family: 'nexa', arial;
+}
+
+.envio-texto {
+    font-size: 1.2em;
+    font-family: arial;
+    color:#000;
+    margin: 5px;
+}
+
+.envio-texto:nth-child(3) {
+    margin-top: 5%;
+}
+
+.envio-texto:nth-child(6) {
+    margin-top: 5%;
+}
+
+
+.div-right {
+    float: right;
+    margin-right: 16%;
+    max-width: 30%;
+}
+
+.cc-img {
+    width: 200px;
+    margin-left: 10px;
+}
+.pix-img {
+    width: 30px;
+    margin-left: 10px;
+}
+.boleto-img {
+    width: 35px;
+    margin-left: 10px;
+}
+.pag {
+    font-size: 2em;
+    font-family: 'nexa',arial;
+}
+
+.pag-texto {
+    font-size: 1.2em;
+    font-family: arial;
+    color:#000;
+    margin: 5px;
+}
+
+@media(max-width:1100px) {
+    .div-left {
+        display: inline-block;
+        margin-left: 20%;
+        max-width: 70%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .envio {
+        font-size: 3em;
+        
+    }
+    .envio-texto {
+        font-size: 2em;
+    }
+
+    .div-right {
+        float: left;
+        margin-left: 20%;
+        max-width: 70%;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .pag {
+        font-size: 3em;
+    }
+    .pag-texto {
+        font-size: 2em;
+    }
+
+
+}

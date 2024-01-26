@@ -1,7 +1,7 @@
 .head-logo video {
     display: block;
     margin: 5px auto;
-    max-width: 15%;
+    max-width: 10%;
 }
 
 nav {
@@ -12,14 +12,14 @@ nav {
 .menu {
     list-style: none;
     float: left;
-    font-family: 'mont',arial ;
-    font-size: 280%;
+    font-family: 'heavitas',arial ;
+    font-size: 200%;
 }
 
 .menu li {
     position: relative;
     float: left;
-    margin: 40px;
+    margin: 60px;
 
 }
 
@@ -41,16 +41,16 @@ nav {
     .head-logo video {
         display: block;
         margin: 5px auto;
-        max-width: 30%;
+        max-width: 20%;
     }
 
     .menu {
-        font-size: 300%;
+        font-size: 200%;
         margin-left: -5%;
     }
 
     .menu li {
-        margin: 20px;
+        margin: 30px;
     }
 
 }
