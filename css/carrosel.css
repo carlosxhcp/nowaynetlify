@@ -50,21 +50,23 @@
     }
 
     .bg-2 {
-        background-image: url(../img/p1/mobile/p2m.png);
+        background-image: url(../img/p1/mobile/p1m.png);
     }
 
     .bg-3 {
-        background-image: url(../img/p1/mobile/p3m.png);
+        background-image: url(../img/p1/mobile/p1m.png);
     }
 
     .carousel-indicators {
-        bottom: 450px;
+        bottom: 0px;
         z-index: 100;
+        
     }
 
+
     .carousel-item {
-        height: 80vh;
-        min-height: 200px;
+        height: 55vh;
+        min-height: 0px;
     }
 
     .carousel-control-prev, .carousel-control-next {
