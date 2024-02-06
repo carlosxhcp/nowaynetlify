@@ -79,6 +79,11 @@
     transition: .2s;
 }
 
+.btn-medidas {
+    margin-left: 15%;
+    background-color: #000;
+}
+
 @media(max-width:1100px) {
 
     .prod-logo video {
