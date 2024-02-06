@@ -58,7 +58,7 @@
     }
 
     .carousel-indicators {
-        bottom: 00px;
+        bottom:0px;
         z-index: 100;
         
     }
