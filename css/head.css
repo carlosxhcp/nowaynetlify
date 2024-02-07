@@ -1,7 +1,7 @@
-.head-logo video {
+.head-logo img {
+    width: 25%;
+    margin: auto;
     display: block;
-    margin: 5px auto;
-    max-width: 10%;
 }
 
 nav {
@@ -54,31 +54,6 @@ nav {
     }
 
 }
-
-
-
-
-
-@font-face {
-    font-family: 'coolvetica';
-    src: url('/fonts/coolvetica.otf') format('opentype');
-
-}
-
-@font-face {
-    font-family: 'comforta';
-    src: url('/fonts/comforta.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'mont';
-    src: url('/fonts/mont.otf') format('opentype');
-}
-
-
-
-
-
 
 
 @media only screen and (min-width: 450px)
