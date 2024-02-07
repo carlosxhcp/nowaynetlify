@@ -34,15 +34,15 @@ footer {
     }
 
     .col-md-2:nth-child(2) a {
-        margin-left: -230px;
+        margin-left: -150px;
     }
 
     .col-md-2:nth-child(3) a {
-        margin-left: -100px;
+        margin-left: 20px;
     }
 
     .col-md-2:nth-child(4) a {
-        margin-left: 0px;
+        margin-left: 200px;
     }
     .col-md-2:nth-child(5) a {
         margin-left: 0px;
