@@ -80,10 +80,24 @@
 }
 
 .btn-medidas {
-    margin-left: 15%;
+    margin-left: 11%;
     background-color: #000;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    padding: 5px 250px;   
+    font-family: 'coolvetica', arial;
 }
 
+.btn-medidas:hover {
+    background-color: #333333;
+    color: white;
+}
+
+#collapseExample {
+    margin-left: 11%;
+    margin-top: 2%;
+}
 @media(max-width:1100px) {
 
     .prod-logo video {
