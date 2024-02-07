@@ -125,17 +125,16 @@
     }
     .btn-medidas {
         margin-left: 11%;
-        background-color: #000;
-        color: white;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
         font-size: 3em;
-        text-decoration: none;
-        padding: 5px 250px;   
+        text-decoration: none;  
         font-family: 'coolvetica', arial;
+        border-radius: 2px;
     }
     
     .btn-medidas:hover {
-        background-color: #333333;
-        color: white;
+
     }
     
     #collapseExample {
