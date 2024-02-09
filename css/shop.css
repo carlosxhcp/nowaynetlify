@@ -7,12 +7,21 @@
 .shop-produtos a:nth-child(1) {
     padding-right: 10%;
 }
-
-
+.home-img-mobile {
+    display: none;
+}
+.home-img {
+    max-width: 100%;
+    display: block;
+}
 
 @media(max-width:1100px) {
-    .home-img {
+    .home-img-mobile {
+        display: block;
         max-width: 100%;
+    }
+    .home-img {
+        display: none;
     }
 
     .shop-produtos {

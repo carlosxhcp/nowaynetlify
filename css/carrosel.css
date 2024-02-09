@@ -13,7 +13,7 @@
 }
 
 .bg-3 {
-    background-image: url(../img/p1/pc/p3.png);
+    background-image: url(../img/p1/pc/p1.png);
 }
 
 .bg-1,
@@ -29,8 +29,8 @@
 }
 
 .carousel-indicators {
-    bottom: -20px;
-    z-index: 0;
+    bottom: 20px;
+    z-index: -1000;
 }
 
 .carousel-indicators button {
@@ -39,6 +39,7 @@
 
 .carousel-control-prev, .carousel-control-next {
     opacity: 5;
+    margin: 100px;
 }
 
 
@@ -50,7 +51,7 @@
     }
 
     .bg-2 {
-        background-image: url(../img/p1/mobile/p1m.png);
+        background-image: url(../img/p1/mobile/p2m.png);
     }
 
     .bg-3 {
@@ -58,8 +59,8 @@
     }
 
     .carousel-indicators {
-        bottom:-50px;
-        z-index: 100;
+        bottom:200px;
+        z-index: -2000;
         
     }
 
