@@ -73,7 +73,7 @@
     transition: .2s;
 }
 
-.prod-btn button:focus {
+.prod-btn button:hover {
     background-color: #868686;
     color: #fff;
     transition: .2s;
