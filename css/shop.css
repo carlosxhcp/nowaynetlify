@@ -31,8 +31,18 @@
         margin-bottom: 10%;
     }
 
-    .shop-produtos img:nth-child(1) {
-        padding-bottom: 10%;
+    .title {
+        margin-top: 3%;
+        font-size: 50px;
+        margin-left: -5%;
+        font-family: 'comforta',arial;
+    }
+
+    .price {
+        margin-top: -4%;
+        font-size: 50px;
+        margin-left: -5%;
+        font-family: 'comforta',arial;
     }
 
     .shop-produtos img {
