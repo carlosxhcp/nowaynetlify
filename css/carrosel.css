@@ -72,6 +72,7 @@
 
     .carousel-control-prev, .carousel-control-next {
         margin-top: 0%;
+        margin: 0;
         opacity: 5;
     }
 }
