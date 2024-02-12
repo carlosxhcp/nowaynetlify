@@ -64,6 +64,7 @@
     font-size: 1em;
     margin-left: 12%;
     margin-right: 12%;
+;
 }
 @media(max-width:1100px) {
     .div-left {
@@ -99,5 +100,6 @@
         font-size: 3em;
         margin-left: 12%;
         margin-right: 12%;
+        text-align: justify;
     }
 }
