@@ -90,5 +90,9 @@
         font-size: 2em;
     }
 
-
+    .troca {
+        font-size: 3em;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
 }
