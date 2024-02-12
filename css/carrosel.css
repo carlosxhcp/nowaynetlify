@@ -13,7 +13,7 @@
 }
 
 .bg-3 {
-    background-image: url(../img/p1/pc/p1.png);
+    background-image: url(../img/p1/pc/p3.png);
 }
 
 .bg-1,
@@ -55,7 +55,7 @@
     }
 
     .bg-3 {
-        background-image: url(../img/p1/mobile/p1m.png);
+        background-image: url(../img/p1/mobile/p3m.png);
     }
 
     .carousel-indicators {
